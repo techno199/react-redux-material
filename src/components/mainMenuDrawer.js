@@ -5,7 +5,7 @@ import Drawer from '@material-ui/core/Drawer';
 import Divider from '@material-ui/core/Divider';
 import MainMenuItems from './mainMenuItems';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import { IconButton } from '../../node_modules/@material-ui/core';
+import { IconButton } from '@material-ui/core';
 
 const styles = theme => ({
   list: {

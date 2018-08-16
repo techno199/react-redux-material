@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { ListItem, List, ListItemText, withStyles } from '../../node_modules/@material-ui/core';
+import { ListItem, List, ListItemText, withStyles } from '@material-ui/core';
 import { NavLink } from 'react-router-dom';
 
 const styles = theme => ({

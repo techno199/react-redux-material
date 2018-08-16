@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { CircularProgress, withStyles } from '../../node_modules/@material-ui/core';
+import { CircularProgress, withStyles } from '@material-ui/core';
 
 const defaultSpinnerSize = 40;
 

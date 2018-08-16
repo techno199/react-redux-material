@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { DialogTitle, Dialog, TextField, DialogActions, Button, DialogContent, withStyles, FormHelperText } from '../../node_modules/@material-ui/core';
+import { DialogTitle, Dialog, TextField, DialogActions, Button, DialogContent, withStyles, FormHelperText } from '@material-ui/core';
 import PropTypes from 'prop-types';
 import { fetchAuth } from '../reducers/authReducer';
 import { connect } from 'react-redux';

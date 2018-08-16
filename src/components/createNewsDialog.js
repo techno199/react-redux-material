@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react'
-import { Dialog, DialogTitle, DialogContent, DialogActions, Button, TextField, withStyles, Grid, FormControl } from '../../node_modules/@material-ui/core';
+import { Dialog, DialogTitle, DialogContent, DialogActions, Button, TextField, withStyles, Grid, FormControl } from '@material-ui/core';
 import PropTypes from 'prop-types';
-import ImagesUpload from 'react-images-upload';
 import UploadIcon from '@material-ui/icons/CloudUploadOutlined';
 import DeleteIcon from '@material-ui/icons/DeleteOutlined';
 import { connect } from 'react-redux';
@@ -182,16 +181,6 @@ class CreateNewsDialog extends PureComponent {
                   </Grid>
                 )
               }
-
-              {/* <ImagesUpload
-                withIcon={true}
-                withPreview={true}
-                buttonText='Choose Images'
-                onChange={this.onDrop}
-                imgExtention={['.jpg']}
-                maxFileSize={5242880}
-              /> */}
-
               <TextField
                 id="multiline-flexible"
                 label="News body"

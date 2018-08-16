@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Route, Switch } from 'react-router-dom';
-import { Grid, Menu } from '../../node_modules/@material-ui/core';
+import { Grid, Menu } from '@material-ui/core';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import Button from '@material-ui/core/Button';
 import AuthDialog from './authDialog';
