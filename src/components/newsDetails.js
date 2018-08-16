@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Typography, withStyles, Grid, CircularProgress, Paper } from '../../node_modules/@material-ui/core';
+import { Typography, withStyles, Grid, CircularProgress, Paper } from '@material-ui/core';
 import { EditorState, RichUtils } from 'draft-js'
 import { fetchNewsDetails } from '../reducers/newsReducer';
 import { connect } from 'react-redux';
