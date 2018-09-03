@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { withStyles, Grid, Button, CardMedia, CardActions, Typography, Card, CardContent, CircularProgress, Menu, MenuItem, Collapse, IconButton } from '@material-ui/core';
+import { withStyles, Grid, Button, CardMedia, CardActions, Typography, Card, CardContent, Menu, MenuItem, Collapse, IconButton } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 import AddIcon from '@material-ui/icons/Add';
 import { connect } from 'react-redux';
